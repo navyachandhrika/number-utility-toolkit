@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Utility Toolkit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Number Utility Toolkit</h1>
+    
+    <input type="number" id="numInput" placeholder="Enter a number">
+    
+    <div class="buttons">
+      <button onclick="checkPrime()">Prime</button>
+      <button onclick="checkPalindrome()">Palindrome</button>
+      <button onclick="reverseNumber()">Reverse</button>
+      <button onclick="checkArmstrong()">Armstrong</button>
+      <button onclick="digitSum()">Digit Sum</button>
+      <button onclick="factorial()">Factorial</button>
+      <button onclick="fibonacci()">Fibonacci</button>
+    </div>
+    
+    <div class="result">
+      <h2>Result:</h2>
+      <p id="output">---</p>
+    </div>
+
+    <div class="history">
+      <h3>History:</h3>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
